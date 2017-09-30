@@ -19,7 +19,7 @@ class ReorderController extends Controller
 							      ]
 							    ]
 							];
-	file_put_contents("php://stderr", json_decode($order).PHP_EOL);
+//	file_put_contents("php://stderr", json_decode($order).PHP_EOL);
 	
   file_put_contents("php://stderr","asasa".PHP_EOL);
 	}
